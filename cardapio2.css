@@ -69,12 +69,14 @@ main {
 
 .category {
 
-    width: 100%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
     padding: 5px 5px;
     border-radius: 8px;
-    border-bottom: 20px;
+    border-bottom: 20px;  
+    flex-direction: column;
+    flex-wrap: nowrap;  
     background-color: rgb(193, 0, 22);
 }
 
