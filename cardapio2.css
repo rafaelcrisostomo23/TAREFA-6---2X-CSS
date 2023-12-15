@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(193, 0, 22);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: solid;
+}
+
+.menu a {
+    display: flex;
+    font-family: 'Chewy';
+    font-size: 1.6em;
+    justify-content: center;
+}
+
+.menu a:hover {
+    color: #581200;
+}
+
+
+body{
+    font-family: 'Montserrat';
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+main {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-evenly;
+    background: rgba(216, 216, 216, 0.212);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.category {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    border-radius: 8px;
+    border-bottom: 20px;
+    background-color: rgb(193, 0, 22);
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+
+
+#root{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px; 
+}
+
+.img-box{
+    width: 90%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    height: 180px;
+}
+
+.images{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px 3px  #707070;
+    }
+
+.bottom {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 210px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 0.5em; 
+    justify-content: space-between; 
+}
+
+h1{
+    font-size: 16px;
+}
+p {
+    font-size: 13px;
+}
+h2 {
+    font-size: 18px;
+}
+
+
+button{
+
+    border: none;
+    justify-items: center;
+    border-radius: 8px;
+    background-color: rgb(193, 0, 22);
+    padding: 7px 25px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: #581200;;
+}
+
+.sidebar{
+    width: 30%;
+    border-radius: 8px;
+    background-color: #d8dad8;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.head{
+    background-color: rgb(193, 0, 22);
+    border-radius: 8px;
+    height: 60px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+
+}
+.fa-solid{
+    color: goldenrod;
+}
+
+
+
+
+    /* valores carrinho */
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
+}
+
+
+/* Smartphone Landscape */
+@media (min-width: 576px) {}
+
+/* Tablet Portrait */
+@media (min-width: 768px) {}
+
+/* Tablet Landscape */
+@media (min-width: 992px) {}
+
+/* PC */
+@media (min-width: 1200px) {}
